@@ -3,10 +3,8 @@ public class rowWiseSort {
     static int sortRowWise(int m[][]) {
         // loop for rows of matrix
         for (int i = 0; i < m.length; i++) {
-
             // loop for column of matrix
             for (int j = 0; j < m[i].length; j++) {
-
                 // loop for comparison and swapping
                 for (int k = 0; k < m[i].length - j - 1; k++) {
                     if (m[i][k] > m[i][k + 1]) {
