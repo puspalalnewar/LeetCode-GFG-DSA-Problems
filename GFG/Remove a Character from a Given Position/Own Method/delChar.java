@@ -1,4 +1,4 @@
-public class removeChar {
+public class delChar {
 
     public static String removeChar(String str, char ch) {
         StringBuilder sb = new StringBuilder(str);
