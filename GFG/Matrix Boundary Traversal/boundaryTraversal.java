@@ -1,16 +1,9 @@
 import java.util.*;
-public class exercise {
 
-    
+public class boundaryTraversal {
 
-    public static void main(String[] args) {
+    public static ArrayList<Integer> boundaryTraversal(int mat[][]) {
         ArrayList <Integer> list = new ArrayList<>();
-        
-        int mat[][] = {
-            {1, 2, 3},
-            {4, 5, 6},
-            {7, 8, 9}
-        };
         // Top
         for(int i = 0; i<mat.length-1; i++){
             list.add(mat[0][i]);
@@ -27,8 +20,17 @@ public class exercise {
         for(int j = mat[0].length-1; j > 0; j--){
             list.add(mat[j][0]);
         }
-
-        System.out.println(list);
         
+        return list;
+
+    }
+
+    public static void main(String[] args) {
+        int mat[][] = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+        System.out.println(boundaryTraversal(mat));
     }
 }
