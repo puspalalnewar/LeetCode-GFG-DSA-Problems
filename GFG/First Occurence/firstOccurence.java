@@ -1,3 +1,4 @@
+import java.util.*;
 public class firstOccurence {
 
     static int firstOccurence(String txt, String pat) {

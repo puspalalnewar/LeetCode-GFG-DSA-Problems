@@ -26,6 +26,5 @@ public class snakePattern {
         // Output: 45 48 54 87 89 21 70 78 15
         // Explanation: Printing it in snake pattern will lead to the output as 45 48 54
         // 87 89 21 70 78 15.
-
     }
 }
