@@ -23,6 +23,7 @@ public class nextLargerEle {
     //     return ans;
     // }
 
+    // Optimized Code
     public static ArrayList<Integer> nextLargerElement(int[] arr) {
         int n = arr.length;
         ArrayList<Integer> ans = new ArrayList<>(Collections.nCopies(n, -1)); 
